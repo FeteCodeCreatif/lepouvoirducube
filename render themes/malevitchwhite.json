@@ -1,0 +1,19 @@
+{
+    "name" : "Malevitch White",
+    "index" : 1000,
+    "show-in-gui" : true,
+    "description" : "Malevitch Power Pack for printing export",
+
+    "colors" : {
+        "background" :         "#ffffff",
+        "opencsg-face-front" : "#ffffff",
+        "opencsg-face-back" :  "#ffffff",
+        "cgal-face-front" :    "#ffffff",
+        "cgal-face-back" :     "#ffffff",
+        "cgal-face-2d" :       "#ffffff",
+        "cgal-edge-front" :    "#555555",
+        "cgal-edge-back" :     "#555555",
+        "cgal-edge-2d" :       "#555555",
+        "crosshair" :          "#555555"
+    }
+}

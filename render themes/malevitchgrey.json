@@ -1,0 +1,19 @@
+{
+    "name" : "MalevitchGrey",
+    "index" : 100,
+    "show-in-gui" : true,
+    "description" : "Malevitch Power Pack for creation and screen",
+
+    "colors" : {
+        "background" :         "#ffffff",
+        "opencsg-face-front" : "#eeeeee",
+        "opencsg-face-back" :  "#eeeeee",
+        "cgal-face-front" :    "#eeeeee",
+        "cgal-face-back" :     "#eeeeee",
+        "cgal-face-2d" :       "#eeeeee",
+        "cgal-edge-front" :    "#eeeeee",
+        "cgal-edge-back" :     "#eeeeee",
+        "cgal-edge-2d" :       "#eeeeee",
+        "crosshair" :          "#f0f0f0"
+    }
+}

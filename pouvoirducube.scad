@@ -1,4 +1,4 @@
-$vpt = [ 0, 0, 20 ]; // translation de la vue par défaut
+$vpt = [ 0, 0, 25 ]; // translation de la vue par défaut
 $vpr = [ 55, 0.00, -45 ]; // rotation de la vue par défaut
 $vpd = 110;
 

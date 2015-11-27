@@ -88,7 +88,7 @@ bloc(
 
 // la tour peut être : aucentre, danslecoin ou enlongueur
 
-positiondelatour = enlongueur
+positiondelatour = aucentre
 
 ,// Je mets gardeles, enleve1coin ou enleve2coins
 
@@ -96,10 +96,10 @@ coins = enleve2coins
 
 ,// La hauteur de ma tour entre 0 et 30 mm
 
-hauteurdelatour = 27
+hauteurdelatour = 12
 
 ,// La hauteur de ma base entre 0 et 15 mm
 
-hauteurdelabase = 15
+hauteurdelabase = 4
 
  );

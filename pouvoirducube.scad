@@ -1,18 +1,12 @@
-$vpt = [ 0, 0, 25 ]; // translation de la vue par défaut
-$vpr = [ 55, 0.00, -45 ]; // rotation de la vue par défaut
-$vpd = 110;
-
-
-
 // En dessous je ne modifie que si je comprends ce que je fais,
 // et je demande à un animateur de regarder avec moi
 
 aucentre = 0; O=0;o=O;
 enlongueur = 1; C=1;c=C;
-danslecoin = 2; V=2;v=V;
+danslecoin = 2; encoin=2; V=2;v=V;
 
-gardeles = 0; basecomplete = 0; X=0;x=X;
-enleve1coin = 1; unseulcoin = 1; Y=1;y=Y;
+gardeles = 0; gardelescoins = 0; enleve0coin= 0; basecomplete = 0; X=0;x=X;
+enleve1coin = 1; enleve1coins = 1; garde2coins = 1; Y=1;y=Y;
 enleve2coins = 2; enleve2coin = 2; I=2;i=Y;
 
 taille = 25;
@@ -20,6 +14,11 @@ interieur = 10;
 hauteur = 30;
 base_hauteur = 15;
 epaisseur = 0.3;
+
+$vpt = [ 0, 0, hauteur/2.5 ]; // translation de la vue par défaut
+$vpr = [ 50, 0.00, 45 ]; // rotation de la vue par défaut
+$vpd = 110;
+
 
 module base(taille) {
     cube([taille,taille,epaisseur]);
@@ -65,6 +64,8 @@ module base(taille,hauteur) {
 }
 
 module bloc(positiondelatour,coins,hauteurdelatour, hauteurdelabase) {
+    
+    translate([-taille/2, -taille/2, 0])
 
     difference() {
         union() {
@@ -82,7 +83,7 @@ module bloc(positiondelatour,coins,hauteurdelatour, hauteurdelabase) {
     }
 }
 
-// Ici c'est mon objet à moi: je peux changer les valeurs après les =
+// Ici c'est mon objet à moi: je peux changer les valeurs après les signes =
 
 bloc(
 
@@ -90,16 +91,16 @@ bloc(
 
 positiondelatour = aucentre
 
-,// Je mets gardeles, enleve1coin ou enleve2coins
+,// Je mets basecomplete, enleve1coin ou enleve2coins
 
-coins = enleve2coins
+coins = basecomplete
 
 ,// La hauteur de ma tour entre 0 et 30 mm
 
-hauteurdelatour = 12
+hauteurdelatour = 18
 
 ,// La hauteur de ma base entre 0 et 15 mm
 
-hauteurdelabase = 4
+hauteurdelabase = 5
 
- );
+);

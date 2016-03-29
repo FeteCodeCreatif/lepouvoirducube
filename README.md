@@ -25,6 +25,9 @@ Le Pouvoir du Cube est conçu et programmé par [Laurent Bossavit](http://twitte
 ![minicity.jpg](minicity.jpg)
 
 ### Photos de l'atelier
+![CVFEfj-WEAEL_7a.jpg](CVFEfj-WEAEL_7a.jpg)
+![CVFEfy8XAAE1X4t.jpg](CVFEfy8XAAE1X4t.jpg)
+
 
 ### Captures d'écran
 ![lepouvoirducube screen capture](lepouvoirducube-screen-1.png)

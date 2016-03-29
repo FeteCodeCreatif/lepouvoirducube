@@ -4,7 +4,7 @@ Créer des tours directement dans OpenSCAD et les imprimer en 3D pour faire gran
 
 Les enfants paramétrisent leur design : choix des formes, des hauteurs, angles (ils ont un petit "[guide](guide-atelier.pdf)" qui les aident à choisir).
 
-Il existe potentiellement 4050 formes de tours. Durant le weekend nous en avons imprimer en avons imprimés entre 10 et 250 ! 
+Il existe potentiellement 4050 formes de tours. Durant le weekend nous en avons imprimés autour de 250 ! 
 
 Les participants naviguent dans cet espace de possible, se rapproche étape par étape de la forme qu'ils souhaitent, puis impriment en 3D le module qu'ils ont combiné.
 
